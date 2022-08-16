@@ -1,43 +1,37 @@
 package com.example.mimi
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.mimi.ui.theme.MimiTheme
+import android.view.View
+import android.widget.Button
+import androidx.fragment.app.FragmentActivity
+import androidx.lifecycle.lifecycleScope
+import io.mimi.sdk.core.MimiCore
+import io.mimi.sdk.core.model.MimiAuthRoute
+import io.mimi.sdk.testflow.activity.TestFlowActivity
+import kotlinx.coroutines.launch
 
-class MainActivity : ComponentActivity() {
+class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            MimiTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
-                ) {
-                    Greeting("Android")
-                }
-            }
+        setContentView(R.layout.activity_mimi)
+
+        lifecycleScope.launch {
+            auth()
         }
+
+        findViewById<Button>(R.id.btnOpen).setOnClickListener(View.OnClickListener {
+
+            val intent = Intent(this, TestFlowActivity::class.java)
+
+            startActivity(intent)
+
+        })
     }
-}
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
 
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    MimiTheme {
-        Greeting("Android")
+
+    suspend fun auth(){
+        MimiCore.userController.authenticate(MimiAuthRoute.Anonymously)
     }
 }

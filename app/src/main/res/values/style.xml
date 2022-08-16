@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyBrandTheme" parent="ThemeMimi">
+        <!-- colors -->
+        <item name="mimiPrimaryTintColorNormal">@color/myPrimaryTintColor</item>
+        <item name="mimiPrimaryTintColorHighlighted">@color/myPrimaryTintColorHighlighted</item>
+
+        <item name="mimiSecondaryTintColorNormal">@color/mySecondaryTintColor</item>
+        <item name="mimiSecondaryTintColorHighlighted">@color/mySecondaryTintColorHighlighted</item>
+
+        <item name="mimiTertiaryTintColorNormal">@color/myTertiaryTintColor</item>
+        <item name="mimiTertiaryTintColorHighlighted">@color/myTertiaryTintColorHighlighted</item>
+
+        <item name="mimiPrimaryTextColorNormal">@color/myPrimaryTextColor</item>
+        <item name="mimiPrimaryTextColorHighlighted">@color/myPrimaryTextColorHighlighted</item>
+
+        <item name="mimiSecondaryTextColorNormal">@color/mySecondaryTextColor</item>
+        <item name="mimiSecondaryTextColorHighlighted">@color/mySecondaryTextColorHighlighted</item>
+
+        <item name="mimiForegroundColorNormal">@color/myForegroundColor</item>
+        <item name="mimiForegroundColorHighlighted">@color/myForegroundColorHighlighted</item>
+
+        <item name="mimiSecondaryForegroundColorNormal">@color/mySecondaryForegroundColor</item>
+        <item name="mimiSecondaryForegroundColorHighlighted">@color/mySecondaryForegroundColorHighlighted</item>
+
+        <item name="mimiPrimaryBackgroundColor">@color/myPrimaryBackgroundColor</item>
+        <item name="mimiSecondaryBackgroundColor">@color/mySecondaryBackgroundColor</item>
+        <item name="mimiElevatedBackgroundColor">@color/myElevatedBackgroundColor</item>
+
+        <item name="mimiWarningColor">@color/myWarningColor</item>
+        <item name="mimiErrorColor">@color/myErrorColor</item>
+
+        <!-- hearing test specific colors -->
+        <item name="mimiEarLeftColor">@color/myLeftEarColor</item>
+        <item name="mimiEarRightColor">@color/myRightEarColor</item>
+
+        <item name="mimiExcellentGradeColor">@color/myExcellentGradeColor</item>
+        <item name="mimiGoodGradeColor">@color/myGoodGradeColor</item>
+        <item name="mimiAverageGradeColor">@color/myAverageGradeColor</item>
+        <item name="mimiLimitedGradeColor">@color/myLimitedGradeColor</item>
+        <item name="mimiImpairedGradeColor">@color/myImpairedGradeColor</item>
+        <item name="mimiNoGradeColor">@color/myNoGradeColor</item>
+
+        <!-- fonts -->
+        <item name="mimiFontLight">@font/my_font_light</item>
+        <item name="mimiFontRegular">@font/my_font_regular</item>
+        <item name="mimiFontMedium">@font/my_font_medium</item>
+        <item name="mimiFontHeader">@font/my_font_header</item>
+
+        <!-- misc -->
+        <item name="mimiButtonCornerRadius">@dimen/myButtonRadius</item>
+        <item name="mimiLauncherCardCornerRadius">@dimen/myLauncherCardCornerRadius</item>
+
+        <!-- text appearances -->
+        <item name="mimiTextAppearanceHeader">@style/my_header_text</item>
+        <item name="mimiTextAppearanceBodyNormal">@style/my_body_normal_text</item>
+        <item name="mimiTextAppearanceBodyHighlighted">@style/my_body_highlighted_text</item>
+        <item name="mimiTextAppearanceCompactBodyNormal">@style/my_body_compact_text</item>
+        <item name="mimiTextAppearanceCompactBodyHighlighted">@style/my_body_compact_highlighted_text</item>
+        <item name="mimiTextAppearanceTitle">@style/my_title_text</item>
+        <item name="mimiTextAppearanceAction">@style/my_mimi_action_text</item>
+        <item name="mimiTextAppearanceCompactAction">@style/my_mimi_action_compact_text</item>
+        <item name="mimiTextAppearanceCaption">@style/TextAppearance.Mimi.Caption</item>
+
+        <!-- widget styles -->
+        <item name="mimiButtonStyle">@style/my_button_style</item>
+        <item name="mimiCompactActionButtonStyle">@style/my_compact_action_button_style</item>
+        <item name="mimiCompactBorderlessActionButtonStyle">@style/my_compact_action_button_borderless_style</item>
+        <item name="mimiHearButtonStyle">@style/my_hear_button_style</item>
+    </style>
+
+    <style name="my_header_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_body_normal_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_body_highlighted_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_body_compact_highlighted_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_body_compact_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_title_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_mimi_action_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_mimi_action_compact_text">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mimi_hear_button_text_color</item>
+    </style>
+
+    <style name="my_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="my_compact_action_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="my_compact_action_button_borderless_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="my_hear_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

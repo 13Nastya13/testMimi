@@ -7,4 +7,48 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="col1">#cc5500</color>
+
+    <color name="myPrimaryTintColor">#FF000000</color>
+    <color name="myPrimaryTintColorHighlighted">#FF000000</color>
+    <color name="mySecondaryTintColor">#FF000000</color>
+    <color name="mySecondaryTintColorHighlighted">#FF000000</color>
+    <color name="myTertiaryTintColor">#FF000000</color>
+    <color name="myTertiaryTintColorHighlighted">#FF000000</color>
+
+
+
+
+    <color name="myPrimaryTextColor">#FF03DAC5</color>
+    <color name="myPrimaryTextColorHighlighted">#FF018786</color>
+    <color name="mySecondaryTextColor">#FF000000</color>
+    <color name="mySecondaryTextColorHighlighted">#FF000000</color>
+
+    <color name="myForegroundColor">#d696bb</color>
+    <color name="myForegroundColorHighlighted">#cfc1c5</color>
+    <color name="mySecondaryForegroundColor">#bb3355</color>
+    <color name="mySecondaryForegroundColorHighlighted">#e0a060</color>
+
+    <color name="myPrimaryBackgroundColor">#cfc1c5</color>
+    <color name="mySecondaryBackgroundColor">#bfb3b7</color>
+    <color name="myElevatedBackgroundColor">#b03060</color>
+    <color name="myWarningColor">#cc5500</color>
+    <color name="myErrorColor">#b61e47</color>
+    <color name="myLeftEarColor">#8ec127</color>
+
+
+    <dimen name="myButtonRadius">10dp</dimen>
+    <dimen name="myLauncherCardCornerRadius">10dp</dimen>
+
+    <color name="myRightEarColor">#195dda</color>
+    <color name="myExcellentGradeColor">#dab4b6</color>
+    <color name="myGoodGradeColor">#cc5500</color>
+    <color name="myAverageGradeColor">#b03060</color>
+    <color name="myLimitedGradeColor">#195dda</color>
+    <color name="myImpairedGradeColor">#b33356</color>
+    <color name="myNoGradeColor">#e0406c</color>
+    <color name="myFontLight">#FF6200EE</color>
+
+
 </resources>
